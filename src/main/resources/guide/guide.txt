@@ -1,0 +1,87 @@
+┌────────┐
+│ BASICS │
+└────────┘
+
+You can input equations in 4 different ways:
+
+1. Evaluation
+   Write an expression, like: "4 + sin(pi)".
+   The result will appear in the equation box.
+
+2. Graph
+   Input something in terms of x, like: "x^2 + 3x + 2".
+   It will be plotted in the graph pane.
+
+3. Constant Definition
+   Define a constant with: "a = 5 + pi".
+   The value will be shown as an evaluation, 
+   and "a" can now be used in other equations.
+
+4. Function Definition
+   Define a function with: "f(x) = sin(x) + x^2".
+   This will graph the function, 
+   and "f" can now be used in other equations as a function.
+
+Note that functions and constants can be longer than one character.
+
+┌────────┐
+│ GRAPHS │
+└────────┘
+
+- For each graphable equation, two buttons will appear:
+  - Visibility toggle: show or hide the graph.
+  - Color picker: change the graph's color.
+
+- In the graph pane:
+  - Click the '+' or '-' buttons (bottom right) to zoom in or out.
+  - Hover near any edge of the graph pane to reveal a shaded area; 
+    click to pan in that direction.
+  - Use the top bar buttons:
+    - "Reset Zoom" to reset zoom level.
+    - "To Origin" to recenter the graph.
+
+┌─────────────┐
+│ EXPRESSIONS │
+└─────────────┘
+
+- Supported symbols: +, -, *, /, % (modulo), ^, (, )
+
+- Most valid non-ambiguous human inputs are supported, including:
+  - Implicit multiplication: "(x + 3)(x + 2)"
+  - Functions without parentheses (up to only one multiplicative 
+    term): "sin x"
+  - Function powers: "sin^2 x"
+
+- Things to note:
+  - Absolute values must be written as: "abs(x)"
+  - Inverse functions like "sin^-1(x)" will be interpreted as 
+    reciprocal (cosecant), not arcsine. Use arc-prefixed names 
+    like "arcsin(x)", "arccos(x)", etc. instead.
+
+┌──────────────────────┐
+│ BUILT-IN IDENTIFIERS │
+└──────────────────────┘
+
+Supported Constants:
+- "e"     : Euler's number (~2.718)
+- "pi"    : Circumference ratio (~3.14159)
+
+Supported Functions:
+- "sin"      : Sine
+- "cos"      : Cosine
+- "tan"      : Tangent
+- "sec"      : Secant
+- "csc"      : Cosecant
+- "cot"      : Cotangent
+- "abs"      : Absolute value
+- "exp"      : Exponential function (e^x)
+- "log"      : Natural logarithm (log base e)
+- "ln"       : Natural logarithm (log base e)
+- "sqrt"     : Square root
+- "cbrt"     : Cube root
+- "arcsin"   : Inverse sine
+- "arccos"   : Inverse cosine
+- "arctan"   : Inverse tangent
+- "floor"    : Round down to nearest integer
+- "ceil"     : Round up to nearest integer
+- "fact"     : Integer factorial (x!)
