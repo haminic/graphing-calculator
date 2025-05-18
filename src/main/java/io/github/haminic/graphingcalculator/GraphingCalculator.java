@@ -1,4 +1,4 @@
-package io.github.haminic.graphingcalculator.application;
+package io.github.haminic.graphingcalculator;
 
 import io.github.haminic.graphingcalculator.equation.utils.EquationController;
 import io.github.haminic.graphingcalculator.equation.utils.EquationManager;

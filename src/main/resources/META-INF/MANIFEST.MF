@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
-Main-Class: io.github.haminic.graphingcalculator.App
+Main-Class: io.github.haminic.graphingcalculator.application.GraphingCal
+ culator
 

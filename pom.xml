@@ -60,9 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>
-                                io.github.haminic.graphingcalculator/io.github.haminic.graphingcalculator.HelloApplication
-                            </mainClass>
+                            <mainClass>io.github.haminic.graphingcalculator/io.github.haminic.graphingcalculator.GraphingCalculator</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
